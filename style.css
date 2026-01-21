@@ -1,0 +1,51 @@
+body {
+    font-family: "Borel", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #f0f0f0;
+    margin: 20px;
+    color: black;
+    font-size: 15px;
+}
+div.books {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+h1.title {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+img {
+    width: 100%;    
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+h1 {
+    font-size: 18px;
+}
+p {
+    color: black;
+}
+div.book {
+    border: 2px solid rgb(245, 192, 255);
+    padding: 20px;
+    max-width: 250px;
+    background-color: rgb(245, 192, 255);  
+    border-radius: 30px;  
+}
+.stars {
+    font-size: 30px;
+    color: gold;
+    text-align: center; 
+    margin: 0px;
+    height: 50px;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
