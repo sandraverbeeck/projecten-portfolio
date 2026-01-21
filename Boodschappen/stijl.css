@@ -1,0 +1,76 @@
+div div {
+    border-style: solid;
+    width: 300px;
+    font-family: 'Trebuchet MS'
+}
+h1 {
+    font-size: 40px;
+    color: darkmagenta;
+    text-align: center;
+}
+body {
+    background-color: rgb(173, 207, 230);
+}
+h2 {
+    margin: 0px;
+    text-align: center;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+} 
+.bakery h2 {
+    background-color: #ebb889; 
+ }
+.produce h2 {
+    background-color: #eef09d; 
+ }
+.pantry h2 {
+    background-color: #a19ff5; 
+ }
+.dairy h2 {
+    background-color: #8ac2f0; 
+ }
+.frozen h2 {
+    background-color: #fdb498; 
+ }
+.household h2 {
+    background-color: #b0f184; 
+ }
+.meat h2 {
+    background-color: #faaae9; 
+ }
+.etc h2 {
+    background-color: #ff8f8f; 
+ }
+ .lijn {
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    font-size: 16px;
+    background-color: transparent;
+    width: 100%;
+}
+ul {
+    padding-left: -20px;
+    padding-right: 20px;
+}
+li {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin: 200px;
+    margin-top: 0px;
+}
+.bakery{ grid-area: 1 / 1 / 2 / 2; }
+.produce { grid-area: 1 / 2 / 2 / 3; }
+.pantry { grid-area: 1 / 3 / 3 / 4; }
+.dairy { grid-area: 2 / 1 / 3 / 2; }
+.frozen { grid-area: 2 / 2 / 3 / 3; }
+.household { grid-area: 3 / 1 / 4 / 2; }
+.meat { grid-area: 3 / 2 / 4 / 3; }
+.etc { grid-area: 3 / 3 / 4 / 4; } 
