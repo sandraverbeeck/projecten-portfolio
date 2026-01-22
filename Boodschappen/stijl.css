@@ -4,12 +4,15 @@ div div {
     font-family: 'Trebuchet MS'
 }
 h1 {
-    font-size: 40px;
-    color: darkmagenta;
+    font-size: 45px;
+    color: black;
+    font-family: "Borel", cursive;
+    font-weight: 400;
+    font-style: normal;
     text-align: center;
 }
 body {
-    background-color: rgb(173, 207, 230);
+    background-color: beige
 }
 h2 {
     margin: 0px;
@@ -18,28 +21,60 @@ h2 {
     margin-bottom: 10px;
 } 
 .bakery h2 {
-    background-color: #ebb889; 
- }
+    background-color: #ebb889;
+    font-family: "Borel", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
 .produce h2 {
     background-color: #eef09d; 
+    font-family: "Borel", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
  }
 .pantry h2 {
     background-color: #a19ff5; 
+    font-family: "Borel", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
  }
 .dairy h2 {
     background-color: #8ac2f0; 
+    font-family: "Borel", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
  }
 .frozen h2 {
     background-color: #fdb498; 
+    font-family: "Borel", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
  }
 .household h2 {
     background-color: #b0f184; 
+    font-family: "Borel", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
  }
 .meat h2 {
     background-color: #faaae9; 
+    font-family: "Borel", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
  }
 .etc h2 {
     background-color: #ff8f8f; 
+    font-family: "Borel", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
  }
  .lijn {
     border: none;
