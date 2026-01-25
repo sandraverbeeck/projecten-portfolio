@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+#toevoegen {
+    width: 30px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+}
+#todo-lijst {
+    list-style-type: square;
+}
