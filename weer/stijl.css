@@ -1,0 +1,49 @@
+.weer {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+    color: #00796b;
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+    height: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center; /* horizontaal */
+  align-items: center;     /* verticaal */
+}
+.header {
+    text-align:center;
+    font-size: 13px; 
+    border-bottom: 1px solid #00796b;   
+}
+.info {
+   background-image: url('weer\ icon.jpg');  
+    height: 79%;
+    border-radius: 0 0 10px 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.quote {
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    bottom: 10px;
+    font-size: 20px;
+    color: #004d40;
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 15px;
+    border: 2px solid #00796b;
+}
+.quote p {
+    margin: 13px;
+}
