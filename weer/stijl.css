@@ -1,9 +1,9 @@
 .weer {
-    font-family: Arial, sans-serif;
-    background-color: #e0f7fa;
-    color: #00796b;
+    font-family: "Mountains of Christmas", serif;
+    background-color: #f1b4ec; 
+    color: rgb(151, 11, 216);
     border-radius: 10px;
-    width: 300px;
+    width: 300px;   
     margin: auto;
     height: 300px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
@@ -18,10 +18,10 @@ body {
 .header {
     text-align:center;
     font-size: 13px; 
-    border-bottom: 1px solid #00796b;   
+    border-bottom: 1px solid #3f0079;   
 }
 .info {
-   background-image: url('weer\ icon.jpg');  
+    background-image: url('weer\ icon.jpg');  
     height: 79%;
     border-radius: 0 0 10px 10px;
     background-size: cover;
@@ -35,14 +35,14 @@ body {
     justify-content: center;
     bottom: 10px;
     font-size: 20px;
-    color: #004d40;
+    color: rgb(151, 11, 216); 
     background-color: white;
     width: 200px;
     height: 50px;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 15px;
-    border: 2px solid #00796b;
+    border: 1px solid #3f0079;   
 }
 .quote p {
     margin: 13px;
