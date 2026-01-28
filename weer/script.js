@@ -24,7 +24,8 @@ async function getWeather() {
 getWeather();
 
 function getWeatherImage(code) {
-    if ([0, 1, 2, 3].includes(code)) return "zonnig.png";
+    if ([0, 1, 2].includes(code)) return "sunny.png";
+    if (code === 3) return "bewolkt.png";
     if ([51, 53, 55].includes(code)) return "drizzle.png";
     if ([61, 63, 65].includes(code)) return "regen.png";
     if ([71, 73, 75].includes(code)) return "sneeuw.png";
@@ -35,7 +36,8 @@ function getWeatherImage(code) {
 }
 
 function getWeatherQuote(code) {
-    if ([0, 1, 2, 3].includes(code)) return "It's sunny outside!";
+    if ([0, 1, 2].includes(code)) return "It's sunny outside!";
+    if (code === 3) return "It's cloudy outside!";
     if ([51, 53, 55].includes(code)) return "It's drizzling outside!";
     if ([61, 63, 65].includes(code)) return "It's raining outside!";
     if ([71, 73, 75].includes(code)) return "It's snowing outside!";
