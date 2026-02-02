@@ -1,0 +1,20 @@
+.facts {   
+    font-family: "Playwrite NZ Basic", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.cats {
+    background-color: lightblue;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+} 
+.dogs {
+    background-color: lightgreen;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+}
